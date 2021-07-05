@@ -26,6 +26,7 @@ ul li a{
 }
 section{
     display: flex;
+    margin-bottom: 20px;
     }
 h1{
     font-size: 50px;
@@ -49,4 +50,7 @@ h1{
     border-radius: 50px;
     font-weight: 700;
 }
-
+.topbanner{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
