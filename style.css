@@ -24,19 +24,31 @@ ul li a{
     padding: 10px 20px 10px 20px;
     font-size: 20px;
 }
-section{
+.felxible-container{
     display: flex;
-    margin-bottom: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
     }
+.second-container{
+    display: flex;
+    margin: 0;
+}
 h1{
     font-size: 50px;
     color: gray;
     }
+h2{
+    font-size: 35px;
+    color: gray;
+}
+h3{
+    font-size: 30px;
+}    
 .span-color{
     color: salmon;
 }
 .picture-width{
-    width: 50%;
+    width: 60%;
     padding: 4%;
     }
 .picture-width img{
@@ -53,4 +65,25 @@ h1{
 .topbanner{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+    }
+.food-recipies{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 50%;
+    padding-left: 25%;
 }
+.card{
+    width: 33%;
+    margin-right: 30px;
+    margin-left: 20px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 40px;
+    }
+.image-width{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 10px;
+    }
