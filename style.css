@@ -28,6 +28,7 @@ ul li a{
     display: flex;
     margin-right: 5%;
     margin-left: 5%;
+    margin-bottom: 10px;
     }
 .second-container{
     display: flex;
@@ -46,6 +47,9 @@ h3{
 }    
 .span-color{
     color: salmon;
+}
+.social-color{
+    color: black;
 }
 .picture-width{
     width: 60%;
@@ -86,4 +90,16 @@ h3{
     padding-left: 0px;
     padding-right: 20px;
     padding-top: 10px;
+    }
+.social{
+    box-shadow: 10px 10px 50px gray;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 30px;
+}   
+.child{
+   padding: 30px 50px 30px 50px;
+   margin-left: 60px;
+   margin-right: 50px;
     }
